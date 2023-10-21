@@ -22,15 +22,6 @@
     justify-content: space-between;
     align-items: center;
 }
-.blur{
-    height:100%;
-    position: absolute;
-    z-index: 1;
-    width:50%;
-    border:none;
-    background: #03030360;
-    /* backdrop-filter: blur(3px); */
-}
 .signUpHeading{
     display:flex;
     align-items: center;
@@ -57,14 +48,16 @@
     padding-bottom:1rem;
 }
 .photoCredits a {
-    color: #f1a431e3;
+    color: #fc9c42b2;
     text-decoration: none;
+    background-color: #fff;
+    padding: 6px;
+    border-radius: 15px;
 }
 .form{
     padding-top: 20vh;
     flex:1;
     background-color:#e6e6e6;
-    /* color:white; */
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -73,24 +66,27 @@
     padding-left: 2rem;
 }
 .form button{
-    margin-left: 2rem;
-    width: 180px;
-    height: 36px;
+    width: 200px;
+    height: 40px;
     border-radius: 5px;
     border: none;
     background-color: #fc9c42b2;
     color: #fff;
     font-family: Odin;
     font-size: 1.25rem;
+    cursor: pointer;
 }
 .logIn{
     font-size: 12px;
+    padding: 0 !important;
+    margin-top: 10px;
 }
 .logIn span{
     font-style: normal !important;
     color: #fc9c42;
     font-family: Odin;
     font-size: 0.85rem;
+    cursor: pointer;
 }
 .formIntro{
     display:flex;
@@ -109,17 +105,20 @@
     margin: 0.7rem auto;
     gap: 3px;
 }
-.formInputs{
-    padding: 3rem 2rem;
+.formInputsCont{
     max-width: 100%;
     background-color: #fff;
+    padding: 2rem;
 }
 .formInputs ul{
     display:flex;
-    flex-direction: column;
+    gap: 2rem;
 }
 .formInputsFlex {
     display: flex;
     gap: 2rem;
     margin: 2rem 0;
+}
+.signInSection{
+    padding:2rem;
 }
