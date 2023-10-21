@@ -11,6 +11,7 @@
 .container{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .logo{
     flex: 1;
@@ -39,6 +40,7 @@
 }
 .odinFont{
     font-family: "Odin";
+    font-size: 90px;
 }
 .photoCredits{
     color:white;
