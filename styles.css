@@ -162,6 +162,7 @@
     }
     .formInputs ul{
         flex-wrap: wrap;
+        gap: 0;
     }
     .formInputsCont{
         margin: 0 auto;
