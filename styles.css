@@ -6,7 +6,7 @@
 }
 @font-face {
     font-family: Odin;
-    src: url(decay0x/assets/Norse-Bold.otf);
+    src: url(./assets/Norse-Bold.otf);
 }
 .container{
     display: flex;
@@ -16,7 +16,7 @@
 .logo{
     flex: 1;
     height: 100vh;
-    background: url(decay0x/assets/pietro-de-grandi-6U4wogjLArk-unsplash.jpg) no-repeat bottom center;
+    background: url(./assets/pietro-de-grandi-6U4wogjLArk-unsplash.jpg) no-repeat bottom center;
     background-size: cover;
     display: flex;
     flex-direction: column;
