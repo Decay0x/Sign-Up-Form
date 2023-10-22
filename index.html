@@ -22,11 +22,11 @@
         </div>
         <div class="form">
                 <div class="formIntro">
-                    <p>This is not a real online service! You know you need something </p>
-                    <p>like this in your life to help you realize your deepest dreams.</p>
-                    <p>Sign up <span>now</span> to get started.</p>
+                    <p>This is not a real online service! You know you need something
+                    like this in your life to help you realize your deepest dreams.
+                    Sign up <span>now</span> to get started.
+                    <p>You <span>know</span> you want to.</p>
                 </div>
-                <p>You <span>know</span> you want to.</p>
             <div class="formInputsCont">
             <h4>Let's do this!</h4>
                 <div class="formInputsFlex">
@@ -48,17 +48,17 @@
                             </li>
                             <li>
                                 <label for="phoneNumber">Phone Number</label>
-                                <input type="tel" id="phoneNumber" name="phone_number" required>
+                                <input minlength="10" type="tel" id="phoneNumber" name="phone_number" required>
                             </li>
                         </ul>
                         <ul>
-                            <li>
+                            <li id="passPopUp">
                                 <label for="password">Password</label>
-                                <input type="password" id="password" name="password" required>
+                                <input minlength="4"  type="password" id="password" name="password" required>
                             </li>
                             <li>
                                 <label for="confPassword">Confirm Password</label>
-                                <input type="password" id="confPassword" name="confPassword" required>
+                                <input minlength="4" type="password" id="confPassword" name="confPassword" required>
                             </li>
                         </ul>
                     </div>
